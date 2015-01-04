@@ -1,0 +1,25 @@
+package zad2;
+
+public class drinks extends stock {
+	
+	private String type;
+	private boolean alcohol;
+	
+	
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type = type;
+	}
+	
+	
+	public boolean isAlcohol() {
+		return alcohol;
+	}
+
+	public void setAlcohol(boolean alcohol) {
+		this.alcohol = alcohol;
+	}
+
+}

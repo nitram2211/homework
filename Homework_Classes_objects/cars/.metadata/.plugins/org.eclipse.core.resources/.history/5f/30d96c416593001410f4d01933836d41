@@ -1,0 +1,26 @@
+package cars;
+
+public class SUV extends car {
+
+	private boolean offroad;
+
+	public SUV() {
+		this.offroad = false;
+	}
+
+	public boolean isOffroad() {
+		return offroad;
+	}
+
+	public void setOffroad(boolean offroad) {
+		this.offroad = offroad;
+	}
+public void SUVout(){
+	if (offroad==true){
+		System.out.printf("Offroad :",this.offroad);
+	}
+	else{
+		System.out.println("Offroad not available !");
+	}
+}
+}

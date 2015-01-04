@@ -1,0 +1,27 @@
+package cars;
+
+public class Automobile extends car {
+	
+	private int fuel;
+	
+	
+	public Automobile(){
+		this.fuel = 0;
+	}
+	public Automobile(int fuel) {
+		this();
+		setPrice(fuel);
+	}
+	
+	public int getFuel() {
+
+		return fuel;
+	}
+
+	public void setFuel(int fuel) {
+		if (fuel >= 0) {
+			this.fuel = fuel;
+		}
+	}
+
+}

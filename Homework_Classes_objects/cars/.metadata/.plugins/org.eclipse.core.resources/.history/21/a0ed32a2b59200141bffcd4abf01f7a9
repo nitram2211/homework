@@ -1,0 +1,23 @@
+package cars;
+
+public class SUV extends car{
+	
+private boolean offroad;
+	
+	
+	public SUV(){
+		this.offroad = false;
+	}
+	
+	void setOffroad(boolean offroad){
+		
+	}
+	
+	
+	boolean isOffroad(){
+		}
+	
+	
+	}
+
+	

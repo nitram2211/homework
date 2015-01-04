@@ -1,0 +1,8 @@
+package zad2;
+
+public class meat extends stock {
+	
+	private String type;
+	private int bestuntil; 
+
+}

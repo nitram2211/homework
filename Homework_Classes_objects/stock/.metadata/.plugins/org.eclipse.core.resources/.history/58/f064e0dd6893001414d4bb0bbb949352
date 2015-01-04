@@ -1,0 +1,25 @@
+package zad2;
+
+public class meat extends stock {
+	
+	private String type;
+	private int bestuntil; 
+
+	
+	
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type = type;
+	}
+	
+	public int getBestUntil(){
+		return bestuntil;
+	}
+	
+	public void setBestUntil(int bestuntil){
+		this.bestuntil = bestuntil;
+	}
+	
+}

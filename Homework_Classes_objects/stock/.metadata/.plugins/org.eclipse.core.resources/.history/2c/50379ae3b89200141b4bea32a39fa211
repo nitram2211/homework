@@ -1,0 +1,15 @@
+package zad2;
+
+public class fruits extends stock {
+
+	private String type;
+	private String origin;
+	
+	
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type = type;
+	}
+}

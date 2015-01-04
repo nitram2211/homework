@@ -1,0 +1,11 @@
+package zad2;
+
+public class shop extends stock {
+	
+	public String name;
+	public String location;
+	stock[] arr = new stock[];
+	
+	
+
+}

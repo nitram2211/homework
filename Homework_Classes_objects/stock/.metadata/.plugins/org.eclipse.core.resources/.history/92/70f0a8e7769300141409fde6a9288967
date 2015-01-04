@@ -1,0 +1,11 @@
+package zad2;
+
+public class shop{
+	
+	private String name;
+	peivate String location;
+	stock[] arr = new stock[];
+	
+	
+
+}

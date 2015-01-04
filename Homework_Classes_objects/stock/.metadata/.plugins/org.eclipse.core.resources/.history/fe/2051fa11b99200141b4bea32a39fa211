@@ -1,0 +1,16 @@
+package zad2;
+
+public class deserts extends stock {
+	
+	private String type;
+	private boolean  sugar;
+	
+	
+	public String getType(){
+		return type;
+	}
+	public void setType(String type){
+		this.type = type;
+	}
+
+}
