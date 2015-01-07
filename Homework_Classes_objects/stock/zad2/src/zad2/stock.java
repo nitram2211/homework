@@ -12,19 +12,21 @@ public abstract class stock {
 		setPrice(price);
 		setAvailable(available);
 	}
-
-	public static void main(String[] args) {
-		stock[] stock = { new groceries(true, 2, "Pepper", "Bulgaria"),
-				new fruits("Apple", "US", 1, true),
-				new meat("Beef", 3, 10, true),
-				new drinks("Vodka", true, 15, false),
-				new deserts("Cake", true, 20, true) };
-		stock[0].StockOut();
-		stock[1].StockOut();
-		stock[2].StockOut();
-		stock[3].StockOut();
-		stock[4].StockOut();
-
+	
+	public static void main(String[] args) 
+	{
+		stock[] stock = {new groceries(true,2,"Pepper","Bulgaria"),
+					     new fruits ("Apple","US",1,true),
+					     new meat	("Beef",3,10, true),   
+						 new drinks ("Vodka",true,15,false),
+						 new deserts("Cake",true,20,true)
+						};
+	stock[0].StockOut();
+	stock[1].StockOut();
+	stock[2].StockOut();
+	stock[3].StockOut();
+	stock[4].StockOut();
+	
 	}
 
 	public int getPrice() {

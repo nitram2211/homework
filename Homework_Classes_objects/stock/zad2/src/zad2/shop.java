@@ -42,8 +42,8 @@ public class shop {
 
 	public static void main(String[] args) {
 		shop market = new shop();
-		market.setName("Kaufland");
-		market.getStock().add(new groceries(true, 2, "Cucumber", "UK"));
+		market.setName("Shop 1");
+		market.getStock().add(new groceries(true, 2, "Tomato", "GR"));
 
 		Scanner in = new Scanner(System.in);
 		System.out.println("Stock: ");
@@ -52,6 +52,10 @@ public class shop {
 		vegname = in.nextLine();
 		vegetable.setType(vegname);
 
+	}
+
+	public void available(stock toadd) {
+		stock.add(toadd);
 	}
 
 }
