@@ -10,6 +10,7 @@ public class Word_Counter {
 		
 		System.out.println("Enter a sentence");
 		String sent = input.nextLine();
+		input.close();
 		int counter = 0;
 		
 		String[] parts = sent.split("\\W+");
